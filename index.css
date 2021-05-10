@@ -1,12 +1,15 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
-table, th, td {
+table,
+th,
+td {
   border: 1px solid black;
   border-collapse: collapse;
 }
-th, td {
+th,
+td {
   padding: 35px;
   text-align: center;
   font-size: 18px;
@@ -15,6 +18,10 @@ th {
   font-size: 24px;
   background: darkgray;
 }
- tr:nth-child(odd) {
+tr:nth-child(odd) {
   background-color: darkgray;
+}
+table {
+  margin: 25px auto;
+  width: 80%;
 }
